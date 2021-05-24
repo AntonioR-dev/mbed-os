@@ -43,11 +43,11 @@
         },
         "tx": {
             "help": "TX pin for serial connection. STMOD pin 2 is the default STMOD+ UART TX. It needs to be set/overwritten otherwise",
-            "value": "D10"
+            "value": "D2"
         },
         "rx": {
             "help": "RX pin for serial connection. STMOD pin 3 is the default STMOD+ UART TX. It needs to be set/overwritten otherwise.",
-            "value": "D2"
+            "value": "D10"
         },
         "rts": {
             "help": "RTS pin for serial connection. STMOD pin 4 is the default STMOD+ UART RTS. It needs to be set/overwritten otherwise.",
