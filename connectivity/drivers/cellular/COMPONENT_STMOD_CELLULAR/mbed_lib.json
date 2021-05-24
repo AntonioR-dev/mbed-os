@@ -15,11 +15,11 @@
         },
         "simsel0": {
             "help": "Module sim select pin 0. By default connected to STMOD+ pin 18. It needs to be set/overwritten otherwise",
-            "value": "D4"
+            "value": "PD_13"
         },
         "simsel1": {
             "help": "Module sim select pin 1. By default connected to STMOD+ pin 8. It needs to be set/overwritten otherwise",
-            "value": "D5"
+            "value": "PD12"
         },
         "sim_reset": {
             "help": "Module sim reset pin. Used for sim selection sequence. By default connected to STMOD+ pin 17. It needs to be set/overwritten otherwise",
@@ -43,19 +43,19 @@
         },
         "tx": {
             "help": "TX pin for serial connection. STMOD pin 2 is the default STMOD+ UART TX. It needs to be set/overwritten otherwise",
-            "value": "D2"
+            "value": "PD_5"
         },
         "rx": {
             "help": "RX pin for serial connection. STMOD pin 3 is the default STMOD+ UART TX. It needs to be set/overwritten otherwise.",
-            "value": "D10"
+            "value": "PD_6"
         },
         "rts": {
             "help": "RTS pin for serial connection. STMOD pin 4 is the default STMOD+ UART RTS. It needs to be set/overwritten otherwise.",
-            "value": "A1"
+            "value": "PD_4"
         },
         "cts": {
             "help": "CTS pin for serial connection. STMOD pin 1 is the default STMOD+ UART RTS. It needs to be set/overwritten otherwise.",
-            "value": "A0"
+            "value": "PD_3"
         },
         "baudrate" : {
             "help": "Serial connection baud rate",
@@ -69,9 +69,6 @@
     "target_overrides": {
         "DISCO_L4R9I": {
             "rts": "NC"
-        },
-	"DISCO_F401RE":{
-		"rts" : "A1"
 	},
         "DISCO_L562QE": {
             "rts": "PD_2"
