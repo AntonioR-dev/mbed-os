@@ -15,47 +15,47 @@
         },
         "simsel0": {
             "help": "Module sim select pin 0. By default connected to STMOD+ pin 18. It needs to be set/overwritten otherwise",
-            "value": "STMOD_18"
+            "value": "D4"
         },
         "simsel1": {
             "help": "Module sim select pin 1. By default connected to STMOD+ pin 8. It needs to be set/overwritten otherwise",
-            "value": "STMOD_8"
+            "value": "D5"
         },
         "sim_reset": {
             "help": "Module sim reset pin. Used for sim selection sequence. By default connected to STMOD+ pin 17. It needs to be set/overwritten otherwise",
-            "value": "STMOD_17"
+            "value": "D7"
         },
         "sim_clk": {
             "help": "Module sim clock pin. Used for sim selection sequence. By default connected to STMOD+ pin 13. It needs to be set/overwritten otherwise",
-            "value": "STMOD_13"
+            "value": "D3"
         },
         "sim_data": {
             "help": "Module sim data pin. Used for sim selection sequence. By default connected to STMOD+ pin 19. It needs to be set/overwritten otherwise",
-            "value": "STMOD_19"
+            "value": "D9"
          },
          "power": {
             "help": "Modem's power key. By default connected to STMOD+ pin 9. It needs to be set/overwritten otherwise",
-            "value": "STMOD_9"
+            "value": "D1"
         },
         "reset": {
             "help": "Modem's reset. By default connected to STMOD+ pin 12. It needs to be set/overwritten otherwise",
-            "value": "STMOD_12"
+            "value": "D15"
         },
         "tx": {
             "help": "TX pin for serial connection. STMOD pin 2 is the default STMOD+ UART TX. It needs to be set/overwritten otherwise",
-            "value": "STMOD_2"
+            "value": "D10"
         },
         "rx": {
             "help": "RX pin for serial connection. STMOD pin 3 is the default STMOD+ UART TX. It needs to be set/overwritten otherwise.",
-            "value": "STMOD_3"
+            "value": "D2"
         },
         "rts": {
             "help": "RTS pin for serial connection. STMOD pin 4 is the default STMOD+ UART RTS. It needs to be set/overwritten otherwise.",
-            "value": "STMOD_4"
+            "value": "A1"
         },
         "cts": {
             "help": "CTS pin for serial connection. STMOD pin 1 is the default STMOD+ UART RTS. It needs to be set/overwritten otherwise.",
-            "value": "STMOD_1"
+            "value": "A0"
         },
         "baudrate" : {
             "help": "Serial connection baud rate",
@@ -70,6 +70,9 @@
         "DISCO_L4R9I": {
             "rts": "NC"
         },
+	"DISCO_F401RE":{
+		"rts" : "A1"
+	},
         "DISCO_L562QE": {
             "rts": "PD_2"
         }
