@@ -19,7 +19,7 @@
         },
         "simsel1": {
             "help": "Module sim select pin 1. By default connected to STMOD+ pin 8. It needs to be set/overwritten otherwise",
-            "value": "PD12"
+            "value": "PD_12"
         },
         "sim_reset": {
             "help": "Module sim reset pin. Used for sim selection sequence. By default connected to STMOD+ pin 17. It needs to be set/overwritten otherwise",
